@@ -1,0 +1,21 @@
+.Orientation {
+  font-family: "HaettenschweilerRegular";
+  color: #fbfae2;
+  .u-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #744349;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    .u-msg {
+      padding: 5vw;
+      display: grid;
+      text-align: center;
+      align-items: center;
+      font-size: 3vw;
+    }
+  }
+}

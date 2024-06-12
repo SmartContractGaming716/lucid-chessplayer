@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "js-chess-engine": "^1.0.2",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
